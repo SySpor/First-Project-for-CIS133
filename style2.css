@@ -1,0 +1,76 @@
+* {
+    margin: 0%; padding: 0%; box-sizing: border-box;
+}
+body {
+    font-family: Georgia, Palatino, "Palatino Linotype", Times,
+      "Times New Roman", serif;
+      background: black url(IsaacBackground.png) top left fixed repeat;
+}
+.buttons-container {
+    display: flex;
+    justify-content: end;
+    font-family: sans-serif;
+    font-weight: bold;
+    max-width: fit-content;
+    margin-left: 79%;
+    position: fixed;
+}
+.flex-container-icon {
+    display: flex;
+}
+.flex-container-middle {
+    display: flex;
+    justify-content: center;
+
+}
+.top-links {
+    height: 25px;
+    background: black ;
+position: sticky;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.content {
+    background: white;
+    margin-right: 5%;
+    padding: 1.5%;
+}
+.cross {
+    width: 100px; height: 100px; margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 16.5%;
+}
+.content:nth-of-type(1) {
+    flex-basis: 400px;
+}
+.content:nth-of-type(2) {
+    flex-basis: 250px;
+    border-radius: 5px;
+    max-height: 474px;
+}
+.top-links:nth-of-type(1) {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: small;
+}
+.top-links:nth-of-type(2) {
+    background-color: rgba(45, 3, 92, 0.5);
+    font-size: large;
+}
+
+.sidebar {
+    font-family: impact, fantasy;
+    font-size: medium;
+    font-stretch: ultra-expanded;
+    margin: 12px 0px 12px 0px;
+    
+}
